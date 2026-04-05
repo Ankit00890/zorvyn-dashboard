@@ -1,0 +1,12 @@
+{
+  "name": "financial-dashboard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm start --prefix backend",
+    "dev": "npm run dev --prefix backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
