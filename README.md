@@ -2,7 +2,7 @@
 
 A powerful, secure, and scalable backend API for a Financial Dashboard, featuring role-based access control (RBAC), authentication, and detailed financial analytics.
 
-## 🚀 Features
+## Features
 
 - **Robust Authentication**: Secure registration and login using JWT (JSON Web Tokens) and Bcrypt for password hashing.
 - **Role-Based Access Control (RBAC)**:
@@ -15,7 +15,7 @@ A powerful, secure, and scalable backend API for a Financial Dashboard, featurin
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Runtime**: [Node.js](https://nodejs.org/)
 - **Framework**: [Express.js](https://expressjs.com/)
@@ -25,7 +25,7 @@ A powerful, secure, and scalable backend API for a Financial Dashboard, featurin
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 zorvyn-dashboard/
@@ -43,7 +43,7 @@ zorvyn-dashboard/
 
 ---
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
 ### Prerequisites
 - [Node.js](https://nodejs.org/) (v14 or higher recommended)
@@ -83,9 +83,9 @@ zorvyn-dashboard/
 
 ---
 
-## 📖 API Documentation
+## API Documentation
 
-### 🔐 Authentication (`/api/auth`)
+### Authentication (`/api/auth`)
 | Method | Endpoint | Description | Access |
 | :--- | :--- | :--- | :--- |
 | POST | `/register` | Register a new user | Public |
@@ -94,7 +94,7 @@ zorvyn-dashboard/
 
 **User Roles**: `viewer`, `analyst`, `admin`
 
-### 👥 Users (`/api/users`) - Admin Only
+### Users (`/api/users`) - Admin Only
 | Method | Endpoint | Description | Access |
 | :--- | :--- | :--- | :--- |
 | GET | `/` | Get list of all users | Admin |
@@ -102,7 +102,7 @@ zorvyn-dashboard/
 | PUT | `/:id` | Update user details/roles | Admin |
 | DELETE| `/:id` | Delete user | Admin |
 
-### 💰 Transactions (`/api/transactions`)
+### Transactions (`/api/transactions`)
 | Method | Endpoint | Description | Access |
 | :--- | :--- | :--- | :--- |
 | GET | `/` | List all transactions | Private |
@@ -111,7 +111,7 @@ zorvyn-dashboard/
 | PUT | `/:id` | Update existing transaction | Admin |
 | DELETE| `/:id` | Soft delete transaction | Admin |
 
-### 📊 Dashboard Analytics (`/api/dashboard`)
+### Dashboard Analytics (`/api/dashboard`)
 | Method | Endpoint | Description | Access |
 | :--- | :--- | :--- | :--- |
 | GET | `/summary` | Get high-level balance summary | Private |
@@ -121,7 +121,7 @@ zorvyn-dashboard/
 
 ---
 
-## 💭 Assumptions & Design Decisions
+## Assumptions & Design Decisions
 
 ### Assumptions Made
 - **Database**: MongoDB Atlas is used for persistence, assuming users will provide their own connection string.
@@ -135,7 +135,7 @@ zorvyn-dashboard/
 
 ---
 
-## 📄 License
+## License
 Distributed under the ISC License. See `LICENSE` for more information.
 
 ---
