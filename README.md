@@ -2,6 +2,8 @@
 
 A powerful, secure, and scalable backend API for a Financial Dashboard, featuring role-based access control (RBAC), authentication, and detailed financial analytics.
 
+**Live Backend URL:** [https://zorvyn-dashboard-9fka.onrender.com/](https://zorvyn-dashboard-9fka.onrender.com/)
+
 ## Features
 
 - **Robust Authentication**: Secure registration and login using JWT (JSON Web Tokens) and Bcrypt for password hashing.
